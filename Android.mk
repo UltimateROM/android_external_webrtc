@@ -39,6 +39,7 @@ LOCAL_SHARED_LIBRARIES := \
     libdl \
     libprotobuf-cpp-lite \
 
+LOCAL_CLANG := true
 
 include $(BUILD_SHARED_LIBRARY)
 
